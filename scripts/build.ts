@@ -5,6 +5,7 @@ import hb from "handlebars";
 import chalk from "chalk";
 
 import { assertIsData, MetaData, type Data } from "./data";
+import hbsHelpers from "./hbs-helpers";
 
 const YAML = "yaml";
 const YML = "yml";
@@ -41,6 +42,10 @@ const loadPartials = async () => {
     hb.registerPartial(Object.fromEntries(partialFiles));
 }
 
+const loadHelpers = () => {
+    hb.registerHelper(hbsHelpers);
+}
+
 const loadData = async (): Promise<Data[]> => {
     const data: Data[] = [];
     for await (const file of glob(`${dataFolder}/**/*.{${validYamlExtensions.join(",")}}`)) {
@@ -60,7 +65,9 @@ try {
     console.log(chalk.black.bgGreenBright(`Generating ${outFile}`));
     console.log(chalk.greenBright(`Using Data from ${dataFolder}`));
 
+    loadHelpers();
     await loadPartials();
+
     const listData: Data[] = await loadData();
     const meta: MetaData = {
         totalDataFiles: listData.length,
@@ -74,11 +81,7 @@ try {
     const template = hb.compile(await readFile(join(templatesFolder, "readme.hbs"), 'utf-8'));
 
     const awesomeData: { data: Data[] } & MetaData = { data: listData, ...meta };
-
-    console.log(awesomeData);
-
     const readme = template(awesomeData);
-
     await writeFile(join(outputFolder, outFile), readme, { encoding: 'utf-8', flag: 'w' });
 
     console.log(chalk.black.bgGreenBright(`Successfully generated ${outFile}`));
