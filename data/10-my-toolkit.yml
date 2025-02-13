@@ -2,6 +2,21 @@ name: My Toolkit
 description: |
   I find it cool to learn about new tools and technologies. Here are the tools that I use everyday.
 resources:
+  - name: Macbook Pro
+    description: My favourite laptop for coding
+    link: https://www.apple.com/macbook-pro/
   - name: Visual Studio Code
     description: My favourite code editor
     link: https://code.visualstudio.com/
+  - name: Sketch
+    description: My favourite design tool for UI and UX
+    link: https://www.sketch.com/
+  - name: Warp
+    description: The best Terminal emulator for the Mac
+    link: https://warp.dev/
+  - name: 1Password
+    description: The best password manager
+    link: https://1password.com/
+  - name: Alfred
+    description: The best productivity tool for the Mac
+    link: https://www.alfredapp.com/
