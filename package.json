@@ -1,0 +1,19 @@
+{
+  "name": "@dotmh/awesome",
+  "version": "1.0.0",
+  "description": "Things that I find awesome inspired by https://github.com/sindresorhus/awesome",
+  "private": true,
+  "main": "scripts/build.ts",
+  "scripts": {
+    "build": "tsx scripts/build.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "handlebars": "^4.7.8",
+    "tsx": "^4.19.2",
+    "yaml": "^2.7.0"
+  }
+}
