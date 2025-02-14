@@ -36,6 +36,7 @@ Example
 
 ```yaml
 name: My Stack
+emoji: man_technologist
 description: |
   This is the default stack that I use for most projects. I find it very productive and easy to work with.
   This isn't the only stack that I use, but it's the one that I use most often.
@@ -69,6 +70,7 @@ Then copy the following into the file
 
 ```
 name:
+emoji:
 description: |
 
 resources:
@@ -77,7 +79,11 @@ resources:
     link:
 ```
 
-Name should match the file name but in a natural form i.e. here it would be `CSharp And DotNet`, the description can be multiline and should start on the blank line after the `|`.
+Name should match the file name but in a natural form i.e. here it would be `CSharp And DotNet`.
+
+The Emoji should be a valid Github Emoji you can get a list using the [Github Emoji AP](https://api.github.com/emojis) or a [visual guide](https://gitmoji.dev/)
+
+The description can be multiline and should start on the blank line after the `|`.
 
 Resources is a list of resource links see above for more information.
 
