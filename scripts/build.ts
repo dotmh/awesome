@@ -11,6 +11,7 @@ const YAML = "yaml";
 const YML = "yml";
 const validYamlExtensions = [YAML, YML] as const;
 const HBS = "hbs";
+const GITHUB_EMOJI_API = "https://api.github.com/emojis";
 
 const baseFolder: string = import.meta.dirname;
 const templatesFolder = join(baseFolder, "templates");
@@ -60,6 +61,19 @@ const loadData = async (): Promise<Data[]> => {
     return data;
 }
 
+const isValidEmoji = async (emoji: string): Promise<boolean> => {
+    const response = await fetch(GITHUB_EMOJI_API);
+    const emojis = await response.json();
+    const emojiNames = Object.keys(emojis);
+    return emojiNames.includes(emoji);
+}
+
+const validateDataEmojis = async (data: Data[]): Promise<boolean> => {
+    const emojisUsed = data.map(d => d.emoji);
+    const inValid = await Promise.all(emojisUsed.map(isValidEmoji));
+    return inValid.every(Boolean);
+}
+
 try {
 
     console.log(chalk.black.bgGreenBright(`Generating ${outFile}`));
@@ -69,6 +83,11 @@ try {
     await loadPartials();
 
     const listData: Data[] = await loadData();
+
+    if (! await validateDataEmojis(listData)) {
+        throw new Error("Invalid Emoji used in Data");
+    }
+
     const meta: MetaData = {
         totalDataFiles: listData.length,
         totalResources: listData.reduce((acc, data) => acc + data.resources.length, 0),

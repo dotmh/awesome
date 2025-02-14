@@ -9,6 +9,7 @@ export interface Resource {
 
 export interface Data {
     name: string;
+    emoji: string;
     description: string;
     badges?: string[];
     resources: Resource[];
@@ -28,6 +29,7 @@ export function assertIsData(value: unknown): asserts value is Data {
 
     assert(typeof data.description === "string", "Data description must be a string");
     assert(typeof data.name === "string" && data.name?.length > 0, "Data name must not be empty");
+    assert(typeof data.emoji === "string" && data.emoji.length > 0, "Data emoji must not be empty");
     assert(data.resources !== undefined, "Data resources must be defined");
     assert(Array.isArray(data.resources), "Data resources must be an array");
 
