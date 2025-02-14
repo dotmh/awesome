@@ -24,7 +24,7 @@ It is designed to take the data from a series of YML files in a data directory a
 
 ## Adding, Editing or Removing links
 
-All the links are stored in yaml in the [./data](./data) folder. Each Yaml file represents a Category on the
+All the links are stored in yaml in the [/data](/data) folder. Each Yaml file represents a Category on the
 main Readme.md.
 
 ### Adding, Editing or Removing a Link
@@ -57,7 +57,7 @@ You can add a new link by adding a new element to represent that resources i.e.
 
 ### Adding a new Category
 
-Create a new file in the [./data](./data) directory to represent the category you want to add links for. The file should be named the same as the name but using `-` instead of spaces. A number at the beginning controls the order categories appear on the README.
+Create a new file in the [/data](/data) directory to represent the category you want to add links for. The file should be named the same as the name but using `-` instead of spaces. A number at the beginning controls the order categories appear on the README.
 
 Example
 
@@ -88,17 +88,17 @@ Resources is a list of resource links see above for more information.
 ## Templates
 
 The build script uses [handlebars](https://handlebarsjs.com/) to control the general look and feel.
-The templates are stored in [/scripts/templates](./scripts/templates) , the templates make reference to
-partials stored in [/scripts/partials](./scripts/partials).
+The templates are stored in [/scripts/templates](/scripts/templates) , the templates make reference to
+partials stored in [/scripts/partials](/scripts/partials).
 
 Partials are autoloaded by the build script and use their filename as the partial name.
-i.e. to include the logo partial [/scripts/partials/logo.hbs](./scripts/partials/logo.hbs) you would use
+i.e. to include the logo partial [/scripts/partials/logo.hbs](/scripts/partials/logo.hbs) you would use
 
 ```handlebars
 {{> logo}}
 ```
 
-Lastly some Handlebars helpers are provided in [./scripts/hb-helpers.ts](./scripts/hb-helpers.ts) they are
+Lastly some Handlebars helpers are provided in [/scripts/hbs-helpers.ts](/scripts/hbs-helpers.ts) they are
 referenced by their exported name.
 
 - asAnchor - `{{asAnchor name}} converts the name of a category into an anchor link for github
