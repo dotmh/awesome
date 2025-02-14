@@ -1,10 +1,12 @@
-import { basename, join, resolve } from "node:path";
+import { basename, dirname, join, resolve, sep } from "node:path";
 import { glob, readFile, stat, writeFile } from "node:fs/promises";
+import assert from "node:assert";
+
 import { parse } from 'yaml';
 import hb from "handlebars";
 import chalk from "chalk";
 
-import { assertIsData, MetaData, type Data } from "./data";
+import { assertIsData, Group, MetaData, type Data } from "./data";
 import hbsHelpers from "./hbs-helpers";
 
 const YAML = "yaml";
@@ -12,6 +14,8 @@ const YML = "yml";
 const validYamlExtensions = [YAML, YML] as const;
 const HBS = "hbs";
 const GITHUB_EMOJI_API = "https://api.github.com/emojis";
+const LOCALE = "en-GB";
+const TIMEZONE = "UTC";
 
 const baseFolder: string = import.meta.dirname;
 const templatesFolder = join(baseFolder, "templates");
@@ -47,14 +51,34 @@ const loadHelpers = () => {
     hb.registerHelper(hbsHelpers);
 }
 
-const loadData = async (): Promise<Data[]> => {
-    const data: Data[] = [];
+const loadData = async (): Promise<Group[]> => {
+    const data: Group[] = [];
     for await (const file of glob(`${dataFolder}/**/*.{${validYamlExtensions.join(",")}}`)) {
         if (!await isDirectory(file)) {
+            const pathWithoutBase = file.replace(dataFolder, "");
+            const groupId = dirname(pathWithoutBase).replace(sep, "");
+
+            if (data.findIndex(d => d.id === groupId) === -1) {
+                data.push({ id: groupId, name: "", description: "", emoji: "", children: [] });
+            }
+
+            const _group = data.find(d => d.id === groupId);
+            assert(_group !== undefined, "Group not found");
+
             const raw = await readFile(file, 'utf-8');
             const _data = parse(raw);
+
+            if (basename(file).startsWith("00-")) {
+                _group.name = _data.name;
+                _group.description = _data.description;
+                assert(isValidEmoji(_data.emoji), `Invalid Emoji ${_data.emoji} used in ${file}`);
+                _group.emoji = _data.emoji;
+                continue;
+            }
+
             assertIsData(_data);
-            data.push(_data);
+            assert(isValidEmoji(_data.emoji), `Invalid Emoji ${_data.emoji} used in ${file}`);
+            _group.children.push(_data);
         }
     }
 
@@ -68,11 +92,14 @@ const isValidEmoji = async (emoji: string): Promise<boolean> => {
     return emojiNames.includes(emoji);
 }
 
-const validateDataEmojis = async (data: Data[]): Promise<boolean> => {
-    const emojisUsed = data.map(d => d.emoji);
-    const inValid = await Promise.all(emojisUsed.map(isValidEmoji));
-    return inValid.every(Boolean);
+const calculateStates = (data: Group[]): MetaData => {
+    const groups: number = data.length;
+    const categories: number = data.reduce((acc, group) => acc + group.children.length, 0);
+    const resources: number = data.reduce((acc, group) => acc + group.children.reduce((acc, data) => acc + data.resources.length, 0), 0);
+    const today = `${(new Date()).toLocaleString(LOCALE, { timeZone: TIMEZONE })}`
+    return { today, groups, categories, resources };
 }
+
 
 try {
 
@@ -82,24 +109,17 @@ try {
     loadHelpers();
     await loadPartials();
 
-    const listData: Data[] = await loadData();
+    const listData: Group[] = await loadData();
 
-    if (! await validateDataEmojis(listData)) {
-        throw new Error("Invalid Emoji used in Data");
-    }
+    const meta: MetaData = calculateStates(listData);
 
-    const meta: MetaData = {
-        totalDataFiles: listData.length,
-        totalResources: listData.reduce((acc, data) => acc + data.resources.length, 0),
-        today: new Date().toISOString()
-    }
-
-    console.log(chalk.greenBright(`Found ${meta.totalDataFiles} data files`));
-    console.log(chalk.greenBright(`Found ${meta.totalResources} resources`));
+    console.log(chalk.greenBright(`Found ${meta.groups} groups`));
+    console.log(chalk.greenBright(`Found ${meta.categories} categories`));
+    console.log(chalk.greenBright(`Found ${meta.resources} resources`));
 
     const template = hb.compile(await readFile(join(templatesFolder, "readme.hbs"), 'utf-8'));
 
-    const awesomeData: { data: Data[] } & MetaData = { data: listData, ...meta };
+    const awesomeData: { data: Group[] } & MetaData = { data: listData, ...meta };
     const readme = template(awesomeData);
     await writeFile(join(outputFolder, outFile), readme, { encoding: 'utf-8', flag: 'w' });
 

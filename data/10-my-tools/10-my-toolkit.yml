@@ -42,3 +42,18 @@ resources:
   - name: Devcontainers
     description: Always me to setup isolated development environments and experiment with new tools
     link: https://code.visualstudio.com/docs/remote/containers
+  - name: Spotify
+    description: My favourite music streaming service
+    link: https://www.spotify.com/
+  - name: GitHub Copilot
+    description: An AI pair programmer that helps me write code faster
+    link: https://copilot.github.com/
+  - name: Sonarcloud
+    description: Helps me write better code by finding bugs and vulnerabilities
+    link: https://sonarcloud.io/
+  - name: Runjs
+    description: A playground for JavaScript and TypeScript, supports NPM packages
+    link: https://runjs.app/
+  - name: Arc Browser
+    description: A modern web browser for the Mac and windows
+    link: https://arc.net/

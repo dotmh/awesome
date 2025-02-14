@@ -34,3 +34,6 @@ resources:
   - name: SASS
     description: My favourite CSS preprocessor
     link: https://sass-lang.com/
+  - name: Github Actions
+    description: My favourite CI/CD tool
+    link: https://github.com/features/actions

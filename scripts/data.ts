@@ -1,24 +1,32 @@
 import assert from "node:assert";
 
-export interface Resource {
-    name?: string;
+interface Base {
+    name: string;
     description: string;
+}
+
+export interface Resource extends Base {
     link?: string;
     badge?: string;
 }
 
-export interface Data {
-    name: string;
+export interface Data extends Base {
     emoji: string;
-    description: string;
     badges?: string[];
     resources: Resource[];
 }
 
+export interface Group extends Base {
+    id: string;
+    emoji: string;
+    children: Data[];
+}
+
 export interface MetaData {
     today: string;
-    totalDataFiles: number;
-    totalResources: number;
+    groups: number;
+    categories: number;
+    resources: number;
 }
 
 export function assertIsData(value: unknown): asserts value is Data {
