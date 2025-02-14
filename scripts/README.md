@@ -25,7 +25,7 @@ It is designed to take the data from a series of YML files in a data directory a
 ## Adding, Editing or Removing links
 
 All the links are stored in yaml in the [/data](/data) folder. Each Yaml file represents a Category on the
-main Readme.md.
+main Readme.md. If they are organised into a folder then that folder is considered a group.
 
 ### Adding, Editing or Removing a Link
 
@@ -86,6 +86,23 @@ The Emoji should be a valid Github Emoji you can get a list using the [Github Em
 The description can be multiline and should start on the blank line after the `|`.
 
 Resources is a list of resource links see above for more information.
+
+### Adding a new Group
+
+Create a new directory in teh [/data](/data) directory, this will represent a group and should be named following <number>-<name> i.e. `10-my-tools`. , like the Categories the number represents the order in which
+groups should appear.
+
+Under the group folder create a yaml file that starts `00` and then the name of the group i.e. for the one above it would `00-my-tools.yml`.
+
+```yaml
+name:
+emoji:
+description: |
+```
+
+Name is the name of the group, should match the name of the folder but with ` ` instead of `-`.
+Emoji, like with the categories the Emoji should be a valid Github Emoji you can get a list using the [Github Emoji AP](https://api.github.com/emojis) or a [visual guide](https://gitmoji.dev/).
+Description: a short description of the group
 
 ### Rebuilding the Readme
 
