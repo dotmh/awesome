@@ -124,7 +124,8 @@ i.e. to include the logo partial [/scripts/partials/logo.hbs](/scripts/partials/
 Lastly some Handlebars helpers are provided in [/scripts/hbs-helpers.ts](/scripts/hbs-helpers.ts) they are
 referenced by their exported name.
 
-- asAnchor - `{{asAnchor name}} converts the name of a category into an anchor link for github
+- asAnchor - `{{asAnchor name}} converts the name of a category into an anchor link for Github
+- asEmoji - `{{asEmoji name}} converts the name of an emoji to a Github markdown emoji tag
 
 ## License
 
