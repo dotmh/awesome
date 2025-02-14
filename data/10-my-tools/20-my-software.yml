@@ -54,3 +54,12 @@ resources:
   - name: Arc Browser
     description: A modern web browser for the Mac and windows
     link: https://arc.net/
+  - name: Jetbrains Rider
+    description: I have been learning C# and .NET recently and this is my favourite IDE
+    link: https://www.jetbrains.com/rider/
+  - name: Jetbrains Mono
+    description: My favourite font for coding, Terminal and anywhere that I need to read code
+    link: https://www.jetbrains.com/lp/mono/
+  - name: Tokyo Night
+    description: My favourite theme for Visual Studio Code, Warp and anywhere that I need to read code
+    link: https://github.com/tokyo-night/tokyo-night-vscode-theme

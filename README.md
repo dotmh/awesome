@@ -57,12 +57,15 @@ Hardware is useless without some software to run on it. Here are some of the sof
   * [Bat](https://github.com/sharkdp/bat) - A brilliant &#x60;cat&#x60; alternative with syntax highlighting
   * [Just](https://github.com/casey/just) - A fantastic &#x60;make&#x60; alternative with a lot of features
   * [Docker](https://www.docker.com/) - My favourite containerization tool
-  * [Devcontainers](https://code.visualstudio.com/docs/remote/containers) - Always me to setup isolated development environments and experiment with new tools
+  * [Devcontainers](https://code.visualstudio.com/docs/remote/containers) - Allows me to setup isolated development environments and experiment with new tools
   * [Spotify](https://www.spotify.com/) - My favourite music streaming service
   * [GitHub Copilot](https://copilot.github.com/) - An AI pair programmer that helps me write code faster
   * [Sonarcloud](https://sonarcloud.io/) - Helps me write better code by finding bugs and vulnerabilities
   * [Runjs](https://runjs.app/) - A playground for JavaScript and TypeScript, supports NPM packages
   * [Arc Browser](https://arc.net/) - A modern web browser for the Mac and windows
+  * [Jetbrains Rider](https://www.jetbrains.com/rider/) - I have been learning C# and .NET recently and this is my favourite IDE
+  * [Jetbrains Mono](https://www.jetbrains.com/lp/mono/) - My favourite font for coding, Terminal and anywhere that I need to read code
+  * [Tokyo Night](https://github.com/tokyo-night/tokyo-night-vscode-theme) - My favourite theme for Visual Studio Code, Warp and anywhere that I need to read code
 
 ### :man_technologist: My Stack
 
@@ -85,7 +88,7 @@ This isn&#x27;t the only stack that I use, but it&#x27;s the one that I use most
 
 
 ## Stats
-A total of **39** resources in **3** categories in **1** groups last updated **14/02/2025, 14:38:05**
+A total of **42** resources in **3** categories in **1** groups last updated **14/02/2025, 14:50:32**
 
 ## License
 
