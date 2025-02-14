@@ -6,7 +6,7 @@ import { parse } from 'yaml';
 import hb from "handlebars";
 import chalk from "chalk";
 
-import { assertIsData, Group, MetaData, type Data } from "./data";
+import { assertIsData, type Group, type MetaData } from "./data";
 import hbsHelpers from "./hbs-helpers";
 
 const YAML = "yaml";
@@ -16,14 +16,13 @@ const HBS = "hbs";
 const GITHUB_EMOJI_API = "https://api.github.com/emojis";
 const LOCALE = "en-GB";
 const TIMEZONE = "UTC";
+const OUTFILE = "README.md";
 
 const baseFolder: string = import.meta.dirname;
 const templatesFolder = join(baseFolder, "templates");
 const partialsFolder = join(baseFolder, "partials");
 const dataFolder = resolve(baseFolder, "../data");
 const outputFolder = resolve(baseFolder, "../");
-
-const outFile = "README.md";
 
 const isDirectory = async (path: string) => {
     try {
@@ -103,13 +102,15 @@ const calculateStates = (data: Group[]): MetaData => {
 
 try {
 
-    console.log(chalk.black.bgGreenBright(`Generating ${outFile}`));
+    console.log(chalk.black.bgGreenBright(`Generating ${OUTFILE}`));
     console.log(chalk.greenBright(`Using Data from ${dataFolder}`));
 
     loadHelpers();
     await loadPartials();
 
-    const listData: Group[] = await loadData();
+    const listData: Group[] = (await loadData()).sort((a, b) => {
+        return parseInt(a.id, 10) - parseInt(b.id, 10);
+    });
 
     const meta: MetaData = calculateStates(listData);
 
@@ -121,9 +122,9 @@ try {
 
     const awesomeData: { data: Group[] } & MetaData = { data: listData, ...meta };
     const readme = template(awesomeData);
-    await writeFile(join(outputFolder, outFile), readme, { encoding: 'utf-8', flag: 'w' });
+    await writeFile(join(outputFolder, OUTFILE), readme, { encoding: 'utf-8', flag: 'w' });
 
-    console.log(chalk.black.bgGreenBright(`Successfully generated ${outFile}`));
+    console.log(chalk.black.bgGreenBright(`Successfully generated ${OUTFILE}`));
 
 } catch (error) {
     console.error(chalk.black.bgRedBright(`Error: ${error.message}`));
