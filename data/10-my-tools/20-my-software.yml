@@ -37,7 +37,7 @@ resources:
     description: My favourite containerization tool
     link: https://www.docker.com/
   - name: Devcontainers
-    description: Always me to setup isolated development environments and experiment with new tools
+    description: Allows me to setup isolated development environments and experiment with new tools
     link: https://code.visualstudio.com/docs/remote/containers
   - name: Spotify
     description: My favourite music streaming service
