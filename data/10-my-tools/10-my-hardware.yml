@@ -1,0 +1,38 @@
+name: My Hardware
+emoji: computer
+description: |
+  A big part of the my tool of course is the hardware that I use. Here are the hardware that I use everyday.
+resources:
+  - name: Macbook Pro
+    description: My favourite laptop for coding at the moment
+    link: https://www.apple.com/macbook-pro/
+  - name: Microsoft Surface Laptop 5
+    description: For when I need Windows and for other general tasks, a smaller and lighter laptop
+    link: https://www.microsoft.com/en-gb/d/surface-laptop-5-for-business/8wx8rsm6l09n
+  - name: More Raspberry Pi's than I can list
+    description: For all sorts of projects, from home automation to personal servers
+    link: https://www.raspberrypi.org/
+  - name: LG Display (LG Electronics UHD 4K Monitor 27)
+    description: A great monitor for coding and design and pairing with laptops via USB-C
+    link: https://www.lg.com/uk/monitors/uhd-4k-5k/27un83a-w/
+  - name: Apple Magic Keyboard
+    description: My favourite keyboard
+    link: https://www.apple.com/uk/shop/product/MXCJ3B/A/magic-keyboard-with-numeric-keypad-british-english
+  - name: Apple Magic Mouse
+    description: I am undecided I love gestures but I also hate the charging port
+    link: https://www.apple.com/uk/shop/product/MXK53Z/A/magic-mouse-usb%E2%80%91c-white-multi-touch-surface
+  - name: Stream Deck
+    description: For all sorts of shortcuts and automation
+    link: https://www.elgato.com/en/stream-deck
+  - name: Scarlett 18i16
+    description: My audio interface for recording and streaming
+    link: https://focusrite.com/products/scarlett-18i8-3rd-gen
+  - name: Sony WH-1000XM4
+    description: My favourite headphones
+    link: https://www.sony.co.uk/electronics/headband-headphones/wh-1000xm4
+  - name: Adam Audio T7V
+    description: My favourite speakers / monitors
+    link: https://www.adam-audio.com/en/t-series/t7v/
+  - name: Adam Audio T10s Subwoofer
+    description: A great subwoofer paired with the T7V's
+    link: https://www.adam-audio.com/en/t-series/t10s/

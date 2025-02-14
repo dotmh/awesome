@@ -1,11 +1,8 @@
-name: My Toolkit
-emoji: toolbox
+name: My Software
+emoji: floppy_disk
 description: |
-  I find it cool to learn about new tools and technologies. Here are the tools that I use everyday.
+  Hardware is useless without some software to run on it. Here are some of the software that I use everyday.
 resources:
-  - name: Macbook Pro
-    description: My favourite laptop for coding at the   moment
-    link: https://www.apple.com/macbook-pro/
   - name: Visual Studio Code
     description: My favourite code editor
     link: https://code.visualstudio.com/
