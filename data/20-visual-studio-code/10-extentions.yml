@@ -1,0 +1,59 @@
+name: Extensions
+emoji: postbox
+description: |
+  Extensions are a big part of Visual Studio Code. Here are the extensions that I use everyday.
+resources:
+  - name: Material Icon Theme
+    description: Material Design Icons for Visual Studio Code
+    link: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+  - name: Remote Development
+    description: Work with remote or local code in containers, on remote machines, or in the Windows Subsystem for Linux (WSL).
+    link: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack
+  - name: Code Spell Checker
+    description: Spelling checker for source code
+    link: https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+  - name: Vscode Pets
+    description: A collection of pets for your editor
+    link: https://marketplace.visualstudio.com/items?itemName=wayou.vscode-pets
+  - name: WakaTime
+    description: Metrics, insights, and time tracking automatically generated from your programming activity.
+    link: https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime
+  - name: Dependi
+    description: Dependency Analytics for your project
+    link: https://marketplace.visualstudio.com/items?itemName=fill-labs.dependi
+  - name: Marp
+    description: Markdown presentation writer, powered by Marpit.
+    link: https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode
+  - name: Polacode
+    description: Polaroid for your code
+    link: https://marketplace.visualstudio.com/items?itemName=pnp.polacode
+  - name: .Net Maui
+    description: .NET MAUI is the .NET Multi-platform App UI, a framework for building native device applications spanning mobile, tablet, and desktop.
+    link: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-maui
+  - name: C# Dev Kit
+    description: C# Dev Kit is a collection of extensions for Visual Studio Code that help you write C# code faster and better.
+    link: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp-dev-kit
+  - name: Github Actions
+    description: Supercharge your GitHub workflow. Create, review and deploy code right from Visual Studio Code.
+    link: https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
+  - name: GitLens
+    description: Supercharge the Git capabilities built into Visual Studio Code — Visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more.
+    link: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+  - name: Prettier
+    description: Code formatter using prettier
+    link: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+  - name: ESLint
+    description: Integrates ESLint JavaScript into VS Code.
+    link: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+  - name: Github Copilot
+    description: AI pair programmer that helps you write code faster
+    link: https://marketplace.visualstudio.com/items?itemName=GitHub.copilot
+  - name: SonarLint
+    description: SonarLint helps you detect and fix quality issues as you write code. Like a spell checker, SonarLint squiggles flaws so they can be fixed before committing code.
+    link: https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode
+  - name: Auto Rename Tag
+    description: Automatically rename paired HTML/XML tag, same as Visual Studio IDE does.
+    link: https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
+  - name: Devcontainers
+    description: Allows you to open any folder in a container, on a remote machine, or in WSL and take advantage of VS Code's full feature set.
+    link: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
