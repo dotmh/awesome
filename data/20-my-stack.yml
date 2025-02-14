@@ -7,3 +7,30 @@ resources:
   - name: Typescript
     description: My favourite programming language
     link: https://www.typescriptlang.org/
+  - name: Node.js
+    description: My favourite backend runtime
+    link: https://nodejs.org/
+  - name: React
+    description: My favourite frontend library
+    link: https://reactjs.org/
+  - name: Next.js
+    description: My favourite frontend framework
+    link: https://nextjs.org/
+  - name: Vite
+    description: My favourite frontend build tool
+    link: https://vitejs.dev/
+  - name: Vitest
+    description: My favourite testing library
+    link: https://vitest.dev/
+  - name: PNPM
+    description: My favourite package manager
+    link: https://pnpm.io/
+  - name: ESLint
+    description: My favourite linter
+    link: https://eslint.org/
+  - name: Prettier
+    description: My favourite code formatter
+    link: https://prettier.io/
+  - name: SASS
+    description: My favourite CSS preprocessor
+    link: https://sass-lang.com/

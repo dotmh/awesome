@@ -4,7 +4,7 @@ description: |
   I find it cool to learn about new tools and technologies. Here are the tools that I use everyday.
 resources:
   - name: Macbook Pro
-    description: My favourite laptop for coding
+    description: My favourite laptop for coding at the   moment
     link: https://www.apple.com/macbook-pro/
   - name: Visual Studio Code
     description: My favourite code editor
@@ -21,3 +21,24 @@ resources:
   - name: Alfred
     description: The best productivity tool for the Mac
     link: https://www.alfredapp.com/
+  - name: Trello
+    description: My favourite project management tool
+    link: https://trello.com/
+  - name: ZSH & OHMyZsh
+    description: The best shell and shell framework for the Mac
+    link: https://ohmyz.sh/
+  - name: Eza
+    description: An awesome `ls` alternative with a lot of features
+    link: https://github.com/eza-community/eza
+  - name: Bat
+    description: A brilliant `cat` alternative with syntax highlighting
+    link: https://github.com/sharkdp/bat
+  - name: Just
+    description: A fantastic `make` alternative with a lot of features
+    link: https://github.com/casey/just
+  - name: Docker
+    description: My favourite containerization tool
+    link: https://www.docker.com/
+  - name: Devcontainers
+    description: Always me to setup isolated development environments and experiment with new tools
+    link: https://code.visualstudio.com/docs/remote/containers
