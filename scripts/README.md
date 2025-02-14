@@ -111,5 +111,6 @@ referenced by their exported name.
 
 ## License
 
-This repo is set up with an [Apache 2.0](https://opensource.org/license/apache-2-0) license and this will carry over to any projects that are
-generated from the template unless you remove it.
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge&)](https://opensource.org/licenses/Apache-2.0)
+
+This repo is licensed under the [Apache 2.0](https://opensource.org/license/apache-2-0) license

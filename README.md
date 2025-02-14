@@ -55,4 +55,14 @@ This isn&#x27;t the only stack that I use, but it&#x27;s the one that I use most
 
 
 ## Stats
-A total of **23** resources in **2** categories last updated 2025-02-14T09:59:04.541Z
+A total of **23** resources in **2** categories last updated 2025-02-14T10:03:38.258Z
+
+## License
+
+### Content
+[![CC0](https://licensebuttons.net/l/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+### Code
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge&)](https://opensource.org/licenses/Apache-2.0)
+
+This code in this repo is licensed under the [Apache 2.0](https://opensource.org/license/apache-2-0) license
