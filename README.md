@@ -105,6 +105,7 @@ Make Visual Studio Code look and feel the way you want it to. These extensions h
 
   * [Tokyo Night](https://marketplace.visualstudio.com/items?itemName&#x3D;enkia.tokyo-night) - My favourite theme for coding and writing
   * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName&#x3D;PKief.material-icon-theme) - Material Design Icons for Visual Studio Code
+  * [Jetbrains Mono](https://www.jetbrains.com/lp/mono/) - The best free and open source typeface for developers
   * [Vscode Pets](https://marketplace.visualstudio.com/items?itemName&#x3D;wayou.vscode-pets) - A collection of pets for your editor
 
 ### :toolbox: Tooling
@@ -196,7 +197,7 @@ Other useful extensions that don&#x27;t really fit into any other category.
 
 
 ## Stats
-A total of **101** resources in **9** categories and **2** groups last updated **17/02/2025, 13:49:27**
+A total of **102** resources in **9** categories and **2** groups last updated **17/02/2025, 13:51:16**
 
 ## License
 
