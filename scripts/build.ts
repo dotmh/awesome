@@ -24,6 +24,8 @@ const partialsFolder = join(baseFolder, "partials");
 const dataFolder = resolve(baseFolder, "../data");
 const outputFolder = resolve(baseFolder, "../");
 
+let emojiMemo: string[] | null = null;
+
 const isDirectory = async (path: string) => {
     try {
         const statResult = await stat(path);
@@ -85,10 +87,13 @@ const loadData = async (): Promise<Group[]> => {
 }
 
 const isValidEmoji = async (emoji: string): Promise<boolean> => {
-    const response = await fetch(GITHUB_EMOJI_API);
-    const emojis = await response.json();
-    const emojiNames = Object.keys(emojis);
-    return emojiNames.includes(emoji);
+    if (emojiMemo === null) {
+        const response = await fetch(GITHUB_EMOJI_API);
+        const emojis = await response.json();
+        emojiMemo = Object.keys(emojis);
+    }
+
+    return emojiMemo.includes(emoji);
 }
 
 const calculateStates = (data: Group[]): MetaData => {
