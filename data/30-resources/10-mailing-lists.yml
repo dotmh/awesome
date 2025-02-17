@@ -1,0 +1,23 @@
+name: Mailing Lists
+emoji: mailbox_with_mail
+description: |
+  Some of the best mailing lists I have subscribed to.
+resources:
+  - name: JavaScript Weekly
+    description: A free, once–weekly e-mail round-up of JavaScript news and articles
+    link: https://javascriptweekly.com/
+  - name: Frontend Focus
+    description: A once–weekly e-mail round-up of Front-End news and articles
+    link: https://frontendfoc.us/
+  - name: Node Weekly
+    description: A free, once–weekly e-mail round-up of Node.js news and articles
+    link: https://nodeweekly.com/
+  - name: React Status
+    description: A free, once–weekly e-mail round-up of React news and articles
+    link: https://react.statuscode.com/
+  - name: Ruby Weekly
+    description: A free, once–weekly e-mail round-up of Ruby news and articles
+    link: https://rubyweekly.com/
+  - name: Go Newsletter
+    description: A weekly newsletter about the Go programming language
+    link: https://golangweekly.com/
