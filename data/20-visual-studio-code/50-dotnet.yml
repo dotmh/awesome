@@ -1,0 +1,20 @@
+name: DotNet and C#
+emoji: postbox
+description: |
+  Extensions are a big part of Visual Studio Code. Here are the extensions that I use everyday.
+resources:
+  - name: .Net Maui
+    description: .NET MAUI is the .NET Multi-platform App UI, a framework for building native device applications spanning mobile, tablet, and desktop.
+    link: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-maui
+  - name: C# Dev Kit
+    description: C# Dev Kit is a collection of extensions for Visual Studio Code that help you write C# code faster and better.
+    link: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp-dev-kit
+  - name: C#
+    description: C# for Visual Studio Code
+    link: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit
+  - name: IntelliCode for C#
+    description: AI-assisted IntelliSense for C#
+    link: https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
+  - name: Ionide for F#
+    description: F# language support for Visual Studio Code
+    link: https://marketplace.visualstudio.com/items?itemName=Ionide.Ionide-fsharp

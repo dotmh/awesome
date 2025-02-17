@@ -1,0 +1,35 @@
+name: Services
+emoji: octocat
+description: |
+  Extensions to allow working with the services that I use everyday. These include Github, AWS, and more.
+resources:
+  - name: Github Copilot
+    description: AI pair programmer that helps you write code faster
+    link: https://marketplace.visualstudio.com/items?itemName=GitHub.copilot
+  - name: Github Actions
+    description: Supercharge your GitHub workflow. Create, review and deploy code right from Visual Studio Code.
+    link: https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
+  - name: Gihub Copilot Chat
+    description: Chat with Copilot in your editor
+    link: https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat
+  - name: Github Pull Requests
+    description: See comments and reviews in your source code editor
+    link: https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
+  - name: SonarLint
+    description: SonarLint helps you detect and fix quality issues as you write code. Like a spell checker, SonarLint squiggles flaws so they can be fixed before committing code.
+    link: https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode
+  - name: WakaTime
+    description: Metrics, insights, and time tracking automatically generated from your programming activity.
+    link: https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime
+  - name: AWS Toolkit
+    description: I am a big fan of AWS and this toolkit makes it easier to work with AWS services.
+    link: https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode
+  - name: Terraform
+    description: Syntax highlighting, linting, formatting, and validation for HashiCorp's Terraform
+    link: https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform
+  - name: Platform IDE
+    description: PlatformIO IDE is a development environment for IoT, with support for Arduino, ESP8266/ESP32, and many more.
+    link: https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide
+  - name: 1Password
+    description: 1Password is a password manager that keeps you safe online.
+    link: https://marketplace.visualstudio.com/items?itemName=1Password.1password

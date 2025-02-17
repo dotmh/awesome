@@ -1,0 +1,44 @@
+name: Other
+emoji: hammer
+description: |
+  Other useful extensions that don't really fit into any other category.
+resources:
+  - name: AppleScript
+    description: AppleScript language support for Visual Studio Code
+    link: https://marketplace.visualstudio.com/items?itemName=idleberg.applescript
+  - name: Better Shell Syntax
+    description: Better syntax highlighting for shell scripts
+    link: https://marketplace.visualstudio.com/items?itemName=gep13.shell-syntax
+  - name: Ca65 Macro Assembler Language
+    description: Syntax highlighting for the ca65 macro assembler language
+    link: https://marketplace.visualstudio.com/items?itemName=cc65.ca65
+  - name: CMajor Tools
+    description: Cmajor Music language support for Visual Studio Code
+    link: https://marketplace.visualstudio.com/items?itemName=cmajor.cmajor-tools
+  - name: ESP-IDF
+    description: ESP-IDF extension for Visual Studio Code
+    link: https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension
+  - name: Go
+    description: Go language support for Visual Studio Code
+    link: https://marketplace.visualstudio.com/items?itemName=golang.Go
+  - name: Go Template
+    description: Go Template language support for Visual Studio Code
+    link: https://marketplace.visualstudio.com/items?itemName=ms-vscode.go
+  - name: Kotlin
+    description: Kotlin language support for Visual Studio Code
+    link: https://marketplace.visualstudio.com/items?itemName=mathiasfrohlich.Kotlin
+  - name: Lua
+    description: Lua language support for Visual Studio Code
+    link: https://marketplace.visualstudio.com/items?itemName=sumneko.lua
+  - name: Odin
+    description: Odin language support for Visual Studio Code
+    link: https://marketplace.visualstudio.com/items?itemName=odin-lang.odin
+  - name: Ruby LSP
+    description: Ruby language support for Visual Studio Code
+    link: https://marketplace.visualstudio.com/items?itemName=castwide.solargraph
+  - name: YAML Format
+    description: YAML language support for Visual Studio Code
+    link: https://marketplace.visualstudio.com/items?itemName=bluebrown.yamlfmt
+  - name: Zig
+    description: Zig language support for Visual Studio Code
+    link: https://marketplace.visualstudio.com/items?itemName=ziglang.zig

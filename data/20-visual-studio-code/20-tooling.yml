@@ -1,0 +1,53 @@
+name: Tooling
+emoji: toolbox
+description: |
+  Extensions that add tooling to Visual Studio Code. These make it easier to work with code, manage dependencies, and more.
+resources:
+  - name: Code Spell Checker
+    description: Spelling checker for source code
+    link: https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+  - name: Dependi
+    description: Dependency Analytics for your project
+    link: https://marketplace.visualstudio.com/items?itemName=fill-labs.dependi
+  - name: GitLens
+    description: Supercharge the Git capabilities built into Visual Studio Code — Visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more.
+    link: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+  - name: Polacode
+    description: Polaroid for your code
+    link: https://marketplace.visualstudio.com/items?itemName=pnp.polacode
+  - name: Marp
+    description: Markdown presentation writer, powered by Marpit.
+    link: https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode
+  - name: Remote Development
+    description: Work with remote or local code in containers, on remote machines, or in the Windows Subsystem for Linux (WSL).
+    link: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack
+  - name: Devcontainers
+    description: Allows you to open any folder in a container, on a remote machine, or in WSL and take advantage of VS Code's full feature set.
+    link: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
+  - name: Auto Rename Tag
+    description: Automatically rename paired HTML/XML tag, same as Visual Studio IDE does.
+    link: https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
+  - name: Thunder Client
+    description: Thunder Client is a hand-crafted lightweight Http Client Extension for Visual Studio Code.
+    link: https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client
+  - name: IntelliCode
+    description: AI-assisted development
+    link: https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
+  - name: Hex Editor
+    description: Hex Editor for VSCode
+    link: https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor
+  - name: GI
+    description: Generate .gitignore files
+    link: https://marketplace.visualstudio.com/items?itemName=rubbersheep.gi
+  - name: Docker
+    description: Adds syntax highlighting, commands, hover tips, and linting for Dockerfile and docker-compose files.
+    link: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
+  - name: Markdown PDF
+    description: Export Markdown as PDF
+    link: https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf
+  - name: Paste Json as Code
+    description: Copy JSON, paste as Go, TypeScript, C#, C++ and more.
+    link: https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype
+  - name: PostgreSQL
+    description: PostgreSQL extension for Visual Studio Code
+    link: https://marketplace.visualstudio.com/items?itemName=ms-ossdata.vscode-postgresql

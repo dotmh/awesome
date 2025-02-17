@@ -1,0 +1,14 @@
+name: Look and Feel
+emoji: framed_picture
+description: |
+  Make Visual Studio Code look and feel the way you want it to. These extensions help you customize the editor to your liking.
+resources:
+  - name: Tokyo Night
+    description: My favourite theme for coding and writing
+    link: https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night
+  - name: Material Icon Theme
+    description: Material Design Icons for Visual Studio Code
+    link: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+  - name: Vscode Pets
+    description: A collection of pets for your editor
+    link: https://marketplace.visualstudio.com/items?itemName=wayou.vscode-pets
