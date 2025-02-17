@@ -138,12 +138,12 @@ try {
 
     const emojis = await getEmojiData();
 
-    // if (!await fileExists(join(outputFolder, EMOJI_GUIDE))) {
-    headline('Building Emoji Guide');
-    const emojiGuideTemplate = hb.compile(await readFile(join(templatesFolder, "emoji-guide.hbs"), 'utf-8'));
-    await writeFile(join(outputFolder, EMOJI_GUIDE), emojiGuideTemplate({ emojis }), { encoding: 'utf-8', flag: 'w' });
-    success(`Successfully generated ${join(outputFolder, EMOJI_GUIDE)}`);
-    // }
+    if (!await fileExists(join(outputFolder, EMOJI_GUIDE))) {
+        headline('Building Emoji Guide');
+        const emojiGuideTemplate = hb.compile(await readFile(join(templatesFolder, "emoji-guide.hbs"), 'utf-8'));
+        await writeFile(join(outputFolder, EMOJI_GUIDE), emojiGuideTemplate({ emojis }), { encoding: 'utf-8', flag: 'w' });
+        success(`Successfully generated ${join(outputFolder, EMOJI_GUIDE)}`);
+    }
 
     const listData: Group[] = (await loadData(emojis)).sort((a, b) => {
         return parseInt(a.id, 10) - parseInt(b.id, 10);
