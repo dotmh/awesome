@@ -196,7 +196,7 @@ Other useful extensions that don&#x27;t really fit into any other category.
 
 
 ## Stats
-A total of **101** resources in **9** categories in **2** groups last updated **17/02/2025, 13:48:05**
+A total of **101** resources in **9** categories and **2** groups last updated **17/02/2025, 13:49:27**
 
 ## License
 
