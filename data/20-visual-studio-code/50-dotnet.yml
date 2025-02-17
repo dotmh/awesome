@@ -1,7 +1,7 @@
 name: DotNet and C#
 emoji: purple_heart
 description: |
-  Extensions are a big part of Visual Studio Code. Here are the extensions that I use everyday.
+  I have recently been learning C# and DotNet and these extensions help me write better code.
 resources:
   - name: .Net Maui
     description: .NET MAUI is the .NET Multi-platform App UI, a framework for building native device applications spanning mobile, tablet, and desktop.
