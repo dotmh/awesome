@@ -81,7 +81,7 @@ resources:
 
 Name should match the file name but in a natural form i.e. here it would be `CSharp And DotNet`.
 
-The Emoji should be a valid Github Emoji you can get a list using the [Github Emoji AP](https://api.github.com/emojis) or a [visual guide](https://gitmoji.dev/)
+The Emoji should be a valid Github Emoji you can get a list using the [Github Emoji AP](https://api.github.com/emojis) or a [visual guide](/emoji-guide.html) [_note emoji guide will only appear after first build_]
 
 The description can be multiline and should start on the blank line after the `|`.
 

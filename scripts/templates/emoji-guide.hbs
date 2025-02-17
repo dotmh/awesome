@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Github Emoji List</title>
+        <style>
+            .html {
+                margin: 0.5rem;
+                padding: 0;
+            }
+            .container {
+                display: grid;
+                grid-auto-flow: row;
+                grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+                gap: 0.5rem;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .emoji {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: max-content;
+            }
+
+            .emoji img {
+                width: 64px;
+                height: 64px;
+            }
+
+            .emoji code {
+                width: 64px;
+                overflow-wrap: break-word;
+                font-size: 0.75rem;
+                margin-top: 0.5rem;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            {{#each emojis}}
+                <div class="emoji">
+                    <img src="{{this}}" alt="{{@key}}" />
+                    <code>:{{@key}}:</code>
+                </div>
+            {{/each}}
+        </div>
+    </body>
+</html>

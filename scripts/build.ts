@@ -17,6 +17,8 @@ const GITHUB_EMOJI_API = "https://api.github.com/emojis";
 const LOCALE = "en-GB";
 const TIMEZONE = "UTC";
 const OUTFILE = "README.md";
+const EMOJI_GUIDE = "emoji-guide.html";
+const EMOJI_DATA = "github-emoji.json";
 
 const baseFolder: string = import.meta.dirname;
 const templatesFolder = join(baseFolder, "templates");
@@ -24,12 +26,24 @@ const partialsFolder = join(baseFolder, "partials");
 const dataFolder = resolve(baseFolder, "../data");
 const outputFolder = resolve(baseFolder, "../");
 
-let emojiMemo: string[] | null = null;
+const headline = (text: string) => console.log(chalk.black.bgGreenBright(text));
+const success = (text: string) => console.log(chalk.greenBright(text));
+const error = (text: string) => console.error(chalk.black.bgRedBright(text));
+const warn = (text: string) => console.warn(chalk.black.bgYellowBright(text));
 
 const isDirectory = async (path: string) => {
     try {
         const statResult = await stat(path);
         return statResult.isDirectory();
+    } catch {
+        return false;
+    }
+}
+
+const fileExists = async (path: string) => {
+    try {
+        await stat(path);
+        return true;
     } catch {
         return false;
     }
@@ -52,7 +66,7 @@ const loadHelpers = () => {
     hb.registerHelper(hbsHelpers);
 }
 
-const loadData = async (): Promise<Group[]> => {
+const loadData = async (emojis: Record<string, string>): Promise<Group[]> => {
     const data: Group[] = [];
     for await (const file of glob(`${dataFolder}/**/*.{${validYamlExtensions.join(",")}}`)) {
         if (!await isDirectory(file)) {
@@ -72,13 +86,13 @@ const loadData = async (): Promise<Group[]> => {
             if (basename(file).startsWith("00-")) {
                 _group.name = _data.name;
                 _group.description = _data.description;
-                assert(isValidEmoji(_data.emoji), `Invalid Emoji ${_data.emoji} used in ${file}`);
+                assert(isValidEmoji(_data.emoji, emojis), `Invalid Emoji ${_data.emoji} used in ${file}`);
                 _group.emoji = _data.emoji;
                 continue;
             }
 
             assertIsData(_data);
-            assert(isValidEmoji(_data.emoji), `Invalid Emoji ${_data.emoji} used in ${file}`);
+            assert(isValidEmoji(_data.emoji, emojis), `Invalid Emoji ${_data.emoji} used in ${file}`);
             _group.children.push(_data);
         }
     }
@@ -86,13 +100,23 @@ const loadData = async (): Promise<Group[]> => {
     return data;
 }
 
-const isValidEmoji = async (emoji: string): Promise<boolean> => {
-    if (emojiMemo === null) {
+const getEmojiData = async (): Promise<Record<string, string>> => {
+    let emojis: Record<string, string>;
+    if (await fileExists(join(baseFolder, EMOJI_DATA))) {
+        success(`Using Emoji Data from ${join(baseFolder, EMOJI_DATA)}`);
+        const raw = await readFile(join(baseFolder, EMOJI_DATA), 'utf-8');
+        emojis = JSON.parse(raw);
+    } else {
+        warn('Downloading Emoji Data from GitHub API');
         const response = await fetch(GITHUB_EMOJI_API);
-        const emojis = await response.json();
-        emojiMemo = Object.keys(emojis);
+        emojis = await response.json();
     }
 
+    return emojis;
+}
+
+const isValidEmoji = async (emoji: string, emojis: Record<string, string>): Promise<boolean> => {
+    const emojiMemo = Object.keys(emojis);
     return emojiMemo.includes(emoji);
 }
 
@@ -104,24 +128,32 @@ const calculateStates = (data: Group[]): MetaData => {
     return { today, groups, categories, resources };
 }
 
-
 try {
 
-    console.log(chalk.black.bgGreenBright(`Generating ${OUTFILE}`));
-    console.log(chalk.greenBright(`Using Data from ${dataFolder}`));
+    headline(`Generating ${OUTFILE}`);
+    success(`Using Data from ${dataFolder}`);
 
     loadHelpers();
     await loadPartials();
 
-    const listData: Group[] = (await loadData()).sort((a, b) => {
+    const emojis = await getEmojiData();
+
+    // if (!await fileExists(join(outputFolder, EMOJI_GUIDE))) {
+    headline('Building Emoji Guide');
+    const emojiGuideTemplate = hb.compile(await readFile(join(templatesFolder, "emoji-guide.hbs"), 'utf-8'));
+    await writeFile(join(outputFolder, EMOJI_GUIDE), emojiGuideTemplate({ emojis }), { encoding: 'utf-8', flag: 'w' });
+    success(`Successfully generated ${join(outputFolder, EMOJI_GUIDE)}`);
+    // }
+
+    const listData: Group[] = (await loadData(emojis)).sort((a, b) => {
         return parseInt(a.id, 10) - parseInt(b.id, 10);
     });
 
     const meta: MetaData = calculateStates(listData);
 
-    console.log(chalk.greenBright(`Found ${meta.groups} groups`));
-    console.log(chalk.greenBright(`Found ${meta.categories} categories`));
-    console.log(chalk.greenBright(`Found ${meta.resources} resources`));
+    success(`Found ${meta.groups} groups`);
+    success(`Found ${meta.categories} categories`);
+    success(`Found ${meta.resources} resources`);
 
     const template = hb.compile(await readFile(join(templatesFolder, "readme.hbs"), 'utf-8'));
 
@@ -129,9 +161,9 @@ try {
     const readme = template(awesomeData);
     await writeFile(join(outputFolder, OUTFILE), readme, { encoding: 'utf-8', flag: 'w' });
 
-    console.log(chalk.black.bgGreenBright(`Successfully generated ${OUTFILE}`));
+    headline(`Successfully generated ${OUTFILE}`);
 
-} catch (error) {
-    console.error(chalk.black.bgRedBright(`Error: ${error.message}`));
+} catch (err) {
+    error(`Error: ${err.message}`);
     process.exit(1);
 }
