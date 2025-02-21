@@ -32,3 +32,11 @@ resources:
       Match files using the patterns the shell uses, like stars and stuff.
       I have started to use the native glob module in Node.js but this is still useful.
     link: https://github.com/isaacs/node-glob
+  - name: Hono
+    description: A great lightweight web application framework, build on web standards and can deploy in most places.
+    link: https://hono.dev/
+  - name: Day.js
+    description: |
+      Fast 2kB alternative to Moment.js with the same modern API.
+      I have started to use this in most projects.
+    link: https://day.js.org/

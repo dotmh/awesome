@@ -1,0 +1,29 @@
+name: Frontend
+emoji: picture_frame
+description: |
+  I love working on both the backend and the frontend and these are some awesome frontend libraries that I rely on.
+resources:
+  - name: React
+    description: Probably the most used frontend library in the world these days.
+    link: https://reactjs.org/
+  - name: Next.js
+    description: A great framework for building React applications.
+    link: https://nextjs.org/
+  - name: SASS
+    description: I am still a big fan of handcrafting css and SASS is a great way to do that.
+    link: https://sass-lang.com/
+  - name: Nes.css
+    description: A great CSS framework that I use in most of my little personal projects.
+    link: https://nostalgic-css.github.io/NES.css/
+  - name: Storybook
+    description: A tool for developing UI components in isolation for React, Vue, and Angular.
+    link: https://storybook.js.org/
+  - name: Playwright
+    description: A great tool for testing web applications.
+    link: https://playwright.dev/
+  - name: SWR
+    description: React Hooks library for remote data fetching.
+    link: https://swr.vercel.app/
+  - name: "@tabler/icons"
+    description: A set of over 700 free MIT-licensed high-quality SVG icons for you to use in your web projects.
+    link: https://tabler-icons.io/
