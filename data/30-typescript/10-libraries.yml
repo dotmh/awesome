@@ -1,0 +1,34 @@
+name: Libraries
+emoji: books
+description: |
+  Libraries I use to help me write better Typescript code. (obviously all these work in the pure JS world too)
+resources:
+  - name: Lodash
+    description: A modern modular utility library delivering modularity, performance & extras.
+    link: https://lodash.com/
+  - name: AWS JS SDK
+    description: The official AWS SDK for JavaScript, available for browsers and mobile devices, or Node.js backends.
+    link: https://aws.amazon.com/sdk-for-javascript/
+  - name: Chalk
+    description: Terminal string styling done right.
+    link: https://github.com/chalk/chalk
+  - name: Prisma
+    description: Next-generation Node.js and TypeScript ORM.
+    link: https://www.prisma.io/
+  - name: colorthief
+    description: Grabs the dominant colour or a representative colour palette from an image.
+    link: https://lokeshdhakar.com/projects/color-thief/
+  - name: gray-matter
+    description: Parse front-matter from a string or file.
+    link: https://github.com/jonschlinkert/gray-matter
+  - name: remark
+    description: Markdown processor powered by plugins part of the unified collective.
+    link: https://github.com/remarkjs/remark/tree/main
+  - name: yaml
+    description: I love yaml so I often need a JavaScript parser and stringifier for YAML.
+    link: https://eemeli.org/yaml/#yaml
+  - name: glob
+    description: |
+      Match files using the patterns the shell uses, like stars and stuff.
+      I have started to use the native glob module in Node.js but this is still useful.
+    link: https://github.com/isaacs/node-glob

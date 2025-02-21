@@ -1,0 +1,32 @@
+name: Tools
+emoji: hammer_and_wrench
+description: |
+  Tools that I use with typescript / javascript
+resources:
+  - name: TSX
+    description: A tool for running TS files without needing to compile them.
+    link: https://github.com/privatenumber/tsx
+  - name: Vite
+    description: A build tool that aims to provide a faster and leaner development experience for modern web projects.
+    link: https://vitejs.dev/
+  - name: Vitest
+    description: One of the best test runners can be used without vite and can test typescript without building.
+    link: https://vitest.dev/
+  - name: Istanbul
+    description: A tool for generating code coverage reports.
+    link: https://istanbul.js.org/
+  - name: Huskey
+    description: A great tool for setting up git hooks, I use this in most projects and it is part of my default template.
+    link: https://typicode.github.io/husky/
+  - name: CommitLint
+    description: A tool to check if your commit messages meet the conventional commit format.
+    link: https://commitlint.js.org/
+  - name: Secretlint
+    description: A tool to prevent committing secrets and credentials into a repository.
+    link: https://github.com/secretlint/secretlint
+  - name: ESLint
+    description: A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+    link: https://eslint.org/
+  - name: Prettier
+    description: An opinionated code formatter.
+    link: https://prettier.io/
