@@ -220,13 +220,9 @@ Libraries I use to help me write better Typescript code. (obviously all these wo
   * [gray-matter](https://github.com/jonschlinkert/gray-matter) - Parse front-matter from a string or file.
   * [remark](https://github.com/remarkjs/remark/tree/main) - Markdown processor powered by plugins part of the unified collective.
   * [yaml](https://eemeli.org/yaml/#yaml) - I love yaml so I often need a JavaScript parser and stringifier for YAML.
-  * [glob](https://github.com/isaacs/node-glob) - Match files using the patterns the shell uses, like stars and stuff.
-  I have started to use the native glob module in Node.js but this is still useful.
-  
+  * [glob](https://github.com/isaacs/node-glob) - Match files using the patterns the shell uses, like stars and stuff. I have started to use the native glob module in Node.js but this is still useful.
   * [Hono](https://hono.dev/) - A great lightweight web application framework, build on web standards and can deploy in most places.
-  * [Day.js](https://day.js.org/) - Fast 2kB alternative to Moment.js with the same modern API.
-  I have started to use this in most projects.
-  
+  * [Day.js](https://day.js.org/) - Fast 2kB alternative to Moment.js with the same modern API. I have started to use this in most projects.
 
 ### :hammer_and_wrench: Tools
 
@@ -278,7 +274,7 @@ Some of the best mailing lists I have subscribed to.
 
 
 ## Stats
-A total of **136** resources in **13** categories and **4** groups last updated **21/02/2025, 16:36:41**
+A total of **136** resources in **13** categories and **4** groups last updated **21/02/2025, 16:41:26**
 
 ## License
 
