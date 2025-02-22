@@ -1,0 +1,18 @@
+name: My Socials
+emoji: speech_balloon
+description: |
+  You can find me on these social platforms.
+  _Please note that I am no longer on Twitter. Please follow me on Bluesky instead_
+resources:
+  - name: Bluesky Professional
+    description: My professional profile on the bluesky platform
+    link: https://bsky.app/profile/dotmh.dev
+  - name: LinkedIn
+    description: Connect with my professional network on LinkedIn
+    link: https://www.linkedin.com/in/dotmh/
+  - name: Github
+    description: My code and projects on Github
+    link: https://github.com/dotmh
+  - name: My Website
+    description: My professional website
+    link: https://dotmh.io
