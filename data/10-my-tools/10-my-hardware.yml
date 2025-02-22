@@ -15,12 +15,12 @@ resources:
   - name: LG Display (LG Electronics UHD 4K Monitor 27)
     description: A great monitor for coding and design and pairing with laptops via USB-C
     link: https://www.lg.com/uk/monitors/uhd-4k-5k/27un83a-w/
-  - name: Apple Magic Keyboard
-    description: My favourite keyboard
-    link: https://www.apple.com/uk/shop/product/MXCJ3B/A/magic-keyboard-with-numeric-keypad-british-english
-  - name: Apple Magic Mouse
-    description: I am undecided I love gestures but I also hate the charging port
-    link: https://www.apple.com/uk/shop/product/MXK53Z/A/magic-mouse-usb%E2%80%91c-white-multi-touch-surface
+  - name: 8BitDo Retro Keyboard (Xbox Edition)
+    description: My new favourite keyboard, Love the colour way and the feel.
+    link: https://www.8bitdo.com/retro-87-mechanical-keyboard-xbox/
+  - name: 8BitDo Retro R8 Mouse (Xbox Edition)
+    description: The Mouse looks awesome and feels great, also can charge without been upside down.
+    link: https://www.8bitdo.com/retro-r8-mouse-xbox/
   - name: Stream Deck
     description: For all sorts of shortcuts and automation
     link: https://www.elgato.com/en/stream-deck
