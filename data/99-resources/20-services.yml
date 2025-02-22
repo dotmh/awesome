@@ -1,0 +1,41 @@
+name: Services
+emoji: octocat
+description: |
+  Services that I use day to day when making software
+resources:
+  - name: GitHub
+    description: GitHub is a web-based platform for version control using Git.
+    link: https://www.github.com
+  - name: GitHub Actions
+    description: GitHub Actions makes it easy to automate all your software workflows.
+    link: https://github.com/features/actions
+  - name: GitHub Copilot
+    description: GitHub Copilot is your AI pair programmer.
+    link: https://copilot.github.com
+  - name: GitHub Packages
+    description: GitHub Packages is a package hosting service.
+    link: https://docs.github.com/en/packages/learn-github-packages/introduction-to-github-packages
+  - name: NPM
+    description: NPM is a package manager for the JavaScript programming language.
+    link: https://www.npmjs.com
+  - name: SonarCloud
+    description: SonarCloud is a cloud-based code quality and security service.
+    link: https://sonarcloud.io
+  - name: Netlify
+    description: Netlify is a web developer platform that multiplies productivity.
+    link: https://www.netlify.com
+  - name: Amazon Web Services
+    description: Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs.
+    link: https://aws.amazon.com
+  - name: WakaTime
+    description: WakaTime is a productivity tool for programmers.
+    link: https://wakatime.com
+  - name: Trello
+    description: Trello is a web-based list-making application.
+    link: https://trello.com
+  - name: Fathom Analytics
+    description: Fathom Analytics is simple, privacy-focused website analytics.
+    link: https://usefathom.com
+  - name: Socket
+    description: Socket security scanning for packages and dependencies. I only use this on OSS projects
+    link: https://socket.dev/
