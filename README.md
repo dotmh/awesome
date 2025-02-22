@@ -223,6 +223,7 @@ Libraries I use to help me write better Typescript code. (obviously all these wo
   * [glob](https://github.com/isaacs/node-glob) - Match files using the patterns the shell uses, like stars and stuff. I have started to use the native glob module in Node.js but this is still useful.
   * [Hono](https://hono.dev/) - A great lightweight web application framework, build on web standards and can deploy in most places.
   * [Day.js](https://day.js.org/) - Fast 2kB alternative to Moment.js with the same modern API. I have started to use this in most projects.
+  * [Handlebars](https://handlebarsjs.com/) - Minimal templating on steroids. I use this in a lot of my projects.
 
 ### :hammer_and_wrench: Tools
 
@@ -274,7 +275,7 @@ Some of the best mailing lists I have subscribed to.
 
 
 ## Stats
-A total of **136** resources in **13** categories and **4** groups last updated **21/02/2025, 16:41:26**
+A total of **137** resources in **13** categories and **4** groups last updated **22/02/2025, 13:15:35**
 
 ## License
 

@@ -36,3 +36,6 @@ resources:
   - name: Day.js
     description: Fast 2kB alternative to Moment.js with the same modern API. I have started to use this in most projects.
     link: https://day.js.org/
+  - name: Handlebars
+    description: Minimal templating on steroids. I use this in a lot of my projects.
+    link: https://handlebarsjs.com/
