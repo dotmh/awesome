@@ -1,0 +1,26 @@
+name: Tools
+emoji: hammer_and_wrench
+description: |
+  Code isn't the only thing that is needed when making a game, these are tools that I use.
+resources:
+  - name: Aseprite
+    description: A pixel art tool that I use to create sprites for my games.
+    link: https://www.aseprite.org/
+  - name: Tiled
+    description: A map editor that I use to create levels for my games.
+    link: https://www.mapeditor.org/
+  - name: Audacity
+    description: A free, open source, cross-platform audio software for multi-track recording and editing.
+    link: https://www.audacityteam.org/
+  - name: Furnace
+    description: A retro music tracker that I use to create music for my games.
+    link: https://furnace.cc/
+  - name: MagicaVoxel
+    description: A free lightweight 8-bit voxel art editor and interactive path tracing renderer.
+    link: https://ephtracy.github.io/
+  - name: Blender
+    description: A free and open-source 3D creation suite.
+    link: https://www.blender.org/
+  - name: Cubase
+    description: A digital audio workstation developed by Steinberg for music and MIDI recording, arranging and editing.
+    link: https://new.steinberg.net/cubase/

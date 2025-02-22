@@ -1,5 +1,10 @@
 {
   "[handlebars]": {
     "editor.formatOnSave": false
-  }
+  },
+  "cSpell.words": [
+    "Raylib",
+    "videogames",
+    "Youtuber"
+  ]
 }

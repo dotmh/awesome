@@ -1,0 +1,24 @@
+name: Libraries
+emoji: books
+description: |
+  These are some of the libraries I use when working on game projects. I mainly work in Typescript or C#
+  so often use these libraries with bindings for those languages.
+resources:
+  - name: Raylib
+    description: A simple and easy-to-use library to enjoy videogames programming.
+    link: https://www.raylib.com/
+  - name: ImGui
+    description: Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies.
+    link: https://github.com/ocornut/imgui
+  - name: SDL
+    description: Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.
+    link: https://www.libsdl.org/
+  - name: Jolt Physics
+    description: A fast and lightweight physics engine for games. Recently came across this from a Youtuber
+    link: https://jolt.dev/
+  - name: FNA
+    description: FNA is a reimplementation of the Microsoft XNA Game Studio 4.0 Refresh libraries.
+    link: https://fna-xna.github.io/
+  - name: Moonworks
+    description: Built on the above FNA library, Moonworks is a library for building games in C#.
+    link: https://github.com/MoonsideGames/MoonWorks

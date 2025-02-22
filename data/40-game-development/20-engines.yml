@@ -1,0 +1,18 @@
+name: Game Engines
+emoji: video_game
+description: |
+  A step up from libraries are the full game engine. Here are some that I have experimented with, or am interested
+  in using in the future.
+resources:
+  - name: Gadot
+    description: This is my game engine of choice. It is open source and can be programmed in C#. I will definitely be using this for my future game projects.
+    link: https://godotengine.org/
+  - name: Love
+    description: A framework for making 2D games in the Lua programming language.
+    link: https://love2d.org/
+  - name: Monogame
+    description: An open-source, cross-platform framework for building 2D and 3D games in C#.
+    link: https://www.monogame.net/
+  - name: Openbor
+    description: An open-source engine for building 2D beat-em-up games.
+    link: https://github.com/DCurrent/openbor
