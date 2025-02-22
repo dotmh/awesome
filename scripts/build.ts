@@ -110,6 +110,7 @@ const getEmojiData = async (): Promise<Record<string, string>> => {
         warn('Downloading Emoji Data from GitHub API');
         const response = await fetch(GITHUB_EMOJI_API);
         emojis = await response.json();
+        await writeFile(join(baseFolder, EMOJI_DATA), JSON.stringify(emojis), { encoding: 'utf-8', flag: 'w' });
     }
 
     return emojis;
