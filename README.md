@@ -95,6 +95,7 @@ This is the default stack that I use for most projects. I find it very productiv
 This isn&#x27;t the only stack that I use, but it&#x27;s the one that I use most often.
 
 
+  * [Typescript Template](https://www.github.com/dotmh/ts) - My template for creating Typescript projects
   * [Typescript](https://www.typescriptlang.org/) - My favourite programming language
   * [Node.js](https://nodejs.org/) - My favourite backend runtime
   * [React](https://reactjs.org/) - My favourite frontend library
@@ -369,7 +370,7 @@ _Please note that I am no longer on Twitter. Please follow me on Bluesky instead
 
 
 ## Stats
-A total of **174** resources in **19** categories and **5** groups last updated **22/02/2025, 17:35:31**
+A total of **175** resources in **19** categories and **5** groups last updated **25/02/2025, 10:20:14**
 
 ## License
 

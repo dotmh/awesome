@@ -4,6 +4,9 @@ description: |
   This is the default stack that I use for most projects. I find it very productive and easy to work with.
   This isn't the only stack that I use, but it's the one that I use most often.
 resources:
+  - name: Typescript Template
+    description: My template for creating Typescript projects
+    link: https://www.github.com/dotmh/ts
   - name: Typescript
     description: My favourite programming language
     link: https://www.typescriptlang.org/
