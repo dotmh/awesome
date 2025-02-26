@@ -1,0 +1,30 @@
+name: Books
+emoji: books
+description: |
+  These are some of the books that I've read and found useful. I recommend them to anyone who is interested in the topics they cover.
+
+  **Note: Where a newer edition is available, I recommend getting the latest version.**
+
+  _All links are to Amazon UK and are Not Affiliate Links._
+resources:
+  - name: Game Programming Patterns
+    description: This book is a great introduction to game programming patterns, but isn't just useful for game developers. It covers the basics of patterns and how to apply them to game development.
+    link: https://amzn.eu/d/21vNb9V
+  - name: Level Up! The Guide to Great Video Game Design
+    description: This book is a great introduction to video game design. It covers the basics of game design and how to apply them to video games.
+    link: https://amzn.eu/d/iMJHtL3
+  - name: "Writing for Games: Theory and Practice"
+    description: This book is a great introduction to writing for games. It covers the basics of writing for games and how to apply them to game development.
+    link: https://amzn.eu/d/dB9giL6
+  - name: Physics for Game Developers
+    description: This book is a great introduction to physics for game developers. It covers the basics of physics and how to apply them to game development.
+    link: https://amzn.eu/d/3ndmLDJ
+  - name: The Indie Game Developer Handbook
+    description: This book is a great introduction to indie game development. It covers the basics of indie game development and how to be successful in it.
+    link: https://amzn.eu/d/1uURQuI
+  - name: "Arcade Game Typography: The Art of Pixel Type"
+    description: This book is a great introduction to pixel typography. It covers the basics of pixel typography and how to apply them to game development.
+    link: https://amzn.eu/d/idcY9nA
+  - name: "The Game Music Toolbox: Composition Techniques and Production Tools from 20 Iconic Game Soundtrack"
+    description: This book is a great introduction to game music composition. It covers the basics of game music composition and how to apply them to game development.
+    link: https://amzn.eu/d/aPTr2Be
