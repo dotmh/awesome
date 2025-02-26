@@ -360,7 +360,9 @@ Services that I use day to day when making software
 ### :books: Books
 
 These are some of the books that I&#x27;ve read and found useful. I recommend them to anyone who is interested in the topics they cover.
+
 **Note: Where a newer edition is available, I recommend getting the latest version.**
+
 _All links are to Amazon UK and are Not Affiliate Links._
 
 
@@ -394,7 +396,7 @@ _Please note that I am no longer on Twitter. Please follow me on Bluesky instead
 
 
 ## Stats
-A total of **190** resources in **20** categories and **5** groups last updated **26/02/2025, 16:38:09**
+A total of **190** resources in **20** categories and **5** groups last updated **26/02/2025, 16:40:27**
 
 ## License
 

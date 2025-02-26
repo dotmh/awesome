@@ -2,7 +2,9 @@ name: Books
 emoji: books
 description: |
   These are some of the books that I've read and found useful. I recommend them to anyone who is interested in the topics they cover.
+
   **Note: Where a newer edition is available, I recommend getting the latest version.**
+
   _All links are to Amazon UK and are Not Affiliate Links._
 resources:
   - name: The Pragmatic Programmer
