@@ -1,0 +1,52 @@
+name: Books
+emoji: books
+description: |
+  These are some of the books that I've read and found useful. I recommend them to anyone who is interested in the topics they cover.
+  **Note: Where a newer edition is available, I recommend getting the latest version.**
+  _All links are to Amazon UK and are Not Affiliate Links._
+resources:
+  - name: The Pragmatic Programmer
+    description: This book is a must-read for any software developer. It covers a wide range of topics that are essential for becoming a better programmer.
+    link: https://www.amazon.co.uk/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052
+  - name: Functional Javascript
+    description: This book is a great introduction to functional programming in Javascript. It covers the basics of functional programming and how to apply them in Javascript.
+    link: https://amzn.eu/d/0jDtEvM
+  - name: Pro Typescript
+    description: This book is a comprehensive guide to Typescript. It covers everything from the basics to advanced topics like type inference and generics.
+    link: https://amzn.eu/d/bkQOza2
+  - name: "JavaScript: The Definitive Guide"
+    description: This book is a comprehensive guide to Javascript. It covers everything from the basics to advanced topics like closures and prototypes.
+    link: https://amzn.eu/d/78mRILk
+  - name: "Beginning Ruby 3: From Beginner to Pro"
+    description: This book is a great introduction to Ruby. It covers the basics of the language and how to use it to build web applications.
+    link: https://amzn.eu/d/7hyTBiN
+  - name: Agile Web Development with Rails 7
+    description: This book is a great introduction to Ruby on Rails. It covers the basics of the framework and how to use it to build web applications.
+    link: https://amzn.eu/d/3gUe24L
+  - name: "C# 12 in a Nutshell: The Definitive Reference"
+    description: This book is a comprehensive guide to C#. It covers everything from the basics to advanced topics like LINQ and async programming.
+    link: https://amzn.eu/d/hOPH6Qy
+  - name: "C# 12 Pocket Reference: Instant Help for C# 12 Programmers"
+    description: This book is a quick reference guide to C#. It covers the basics of the language and how to use it to build applications.
+    link: https://amzn.eu/d/hVo0gek
+  - name: Agile Project Management with Kanban (Developer Best Practices)
+    description: This book is a great introduction to Kanban. It covers the basics of the methodology and how to apply it to software development projects.
+    link: https://amzn.eu/d/bKYRwo1
+  - name: "Docs for Developers: An Engineer’s Field Guide to Technical Writing"
+    description: This book is a great introduction to technical writing for software developers. It covers the basics of writing documentation and how to make it useful for developers.
+    link: https://amzn.eu/d/6o3jw9v
+  - name: "The Startup CTO's Handbook: Essential skills and best practices for high performing engineering teams"
+    description: This book is a great introduction to the role of a CTO in a startup. It covers the basics of the role and how to be successful in it.
+    link: https://amzn.eu/d/3dDPJbi
+  - name: Game Programming Patterns
+    description: This book is a great introduction to game programming patterns, but isn't just useful for game developers. It covers the basics of patterns and how to apply them to game development.
+    link: https://amzn.eu/d/21vNb9V
+  - name: Crafting Interpreters
+    description: This book is a great introduction to interpreters and compilers. It covers the basics of building an interpreter and how to apply it to programming languages.
+    link: https://amzn.eu/d/0Z663Bf
+  - name: Web Audio API
+    description: This book is a great introduction to the Web Audio API. It covers the basics of the API and how to use it to build audio applications.
+    link: https://amzn.eu/d/5GYCJpn
+  - name: "97 Things Every Programmer Should Know: Collective Wisdom from the Experts"
+    description: This book is a collection of essays from experienced programmers. It covers a wide range of topics that are essential for becoming a better programmer.
+    link: https://amzn.eu/d/ieVZzTu
