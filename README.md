@@ -65,6 +65,9 @@ A big part of the my tool of course is the hardware that I use. Here are the har
   * [Adam Audio T7V](https://www.adam-audio.com/en/t-series/t7v/) - My favourite speakers / monitors
   * [Adam Audio T10s Subwoofer](https://www.adam-audio.com/en/t-series/t10s/) - A great subwoofer paired with the T7V&#x27;s
 
+[Back to Contents](#contents)
+
+
 ### :floppy_disk: My Software
 
 Hardware is useless without some software to run on it. Here are some of the software that I use everyday.
@@ -91,6 +94,9 @@ Hardware is useless without some software to run on it. Here are some of the sof
   * [Jetbrains Mono](https://www.jetbrains.com/lp/mono/) - My favourite font for coding, Terminal and anywhere that I need to read code
   * [Tokyo Night](https://github.com/tokyo-night/tokyo-night-vscode-theme) - My favourite theme for Visual Studio Code, Warp and anywhere that I need to read code
 
+[Back to Contents](#contents)
+
+
 ### :man_technologist: My Stack
 
 This is the default stack that I use for most projects. I find it very productive and easy to work with.
@@ -110,6 +116,9 @@ This isn&#x27;t the only stack that I use, but it&#x27;s the one that I use most
   * [SASS](https://sass-lang.com/) - My favourite CSS preprocessor
   * [Github Actions](https://github.com/features/actions) - My favourite CI/CD tool
 
+[Back to Contents](#contents)
+
+
 
 ## :gear: Visual Studio Code
 
@@ -125,6 +134,9 @@ Make Visual Studio Code look and feel the way you want it to. These extensions h
   * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName&#x3D;PKief.material-icon-theme) - Material Design Icons for Visual Studio Code
   * [Jetbrains Mono](https://www.jetbrains.com/lp/mono/) - The best free and open source typeface for developers
   * [Vscode Pets](https://marketplace.visualstudio.com/items?itemName&#x3D;wayou.vscode-pets) - A collection of pets for your editor
+
+[Back to Contents](#contents)
+
 
 ### :toolbox: Tooling
 
@@ -148,6 +160,9 @@ Extensions that add tooling to Visual Studio Code. These make it easier to work 
   * [Paste Json as Code](https://marketplace.visualstudio.com/items?itemName&#x3D;quicktype.quicktype) - Copy JSON, paste as Go, TypeScript, C#, C++ and more.
   * [PostgreSQL](https://marketplace.visualstudio.com/items?itemName&#x3D;ms-ossdata.vscode-postgresql) - PostgreSQL extension for Visual Studio Code
 
+[Back to Contents](#contents)
+
+
 ### :blue_heart: Typescript and Javascript
 
 Extensions that make working with Typescript and Javascript easier in Visual Studio Code. Includes both Browser and Node.
@@ -166,6 +181,9 @@ Extensions that make working with Typescript and Javascript easier in Visual Stu
   * [Deno](https://marketplace.visualstudio.com/items?itemName&#x3D;denoland.vscode-deno) - Deno support for Visual Studio Code
   * [Astro](https://marketplace.visualstudio.com/items?itemName&#x3D;astro.build.astro) - Astro is a new kind of static site builder that delivers lightning-fast performance with a modern developer experience.
 
+[Back to Contents](#contents)
+
+
 ### :octocat: Services
 
 Extensions to allow working with the services that I use everyday. These include Github, AWS, and more.
@@ -182,6 +200,9 @@ Extensions to allow working with the services that I use everyday. These include
   * [Platform IDE](https://marketplace.visualstudio.com/items?itemName&#x3D;platformio.platformio-ide) - PlatformIO IDE is a development environment for IoT, with support for Arduino, ESP8266/ESP32, and many more.
   * [1Password](https://marketplace.visualstudio.com/items?itemName&#x3D;1Password.1password) - 1Password is a password manager that keeps you safe online.
 
+[Back to Contents](#contents)
+
+
 ### :purple_heart: DotNet and C#
 
 I have recently been learning C# and DotNet and these extensions help me write better code.
@@ -192,6 +213,9 @@ I have recently been learning C# and DotNet and these extensions help me write b
   * [C#](https://marketplace.visualstudio.com/items?itemName&#x3D;ms-dotnettools.csdevkit) - C# for Visual Studio Code
   * [IntelliCode for C#](https://marketplace.visualstudio.com/items?itemName&#x3D;VisualStudioExptTeam.vscodeintellicode) - AI-assisted IntelliSense for C#
   * [Ionide for F#](https://marketplace.visualstudio.com/items?itemName&#x3D;Ionide.Ionide-fsharp) - F# language support for Visual Studio Code
+
+[Back to Contents](#contents)
+
 
 ### :hammer: Other
 
@@ -211,6 +235,9 @@ Other useful extensions that don&#x27;t really fit into any other category.
   * [Ruby LSP](https://marketplace.visualstudio.com/items?itemName&#x3D;castwide.solargraph) - Ruby language support for Visual Studio Code
   * [YAML Format](https://marketplace.visualstudio.com/items?itemName&#x3D;bluebrown.yamlfmt) - YAML language support for Visual Studio Code
   * [Zig](https://marketplace.visualstudio.com/items?itemName&#x3D;ziglang.zig) - Zig language support for Visual Studio Code
+
+[Back to Contents](#contents)
+
 
 
 ## :blue_heart: Typescript
@@ -237,6 +264,9 @@ Libraries I use to help me write better Typescript code. (obviously all these wo
   * [Day.js](https://day.js.org/) - Fast 2kB alternative to Moment.js with the same modern API. I have started to use this in most projects.
   * [Handlebars](https://handlebarsjs.com/) - Minimal templating on steroids. I use this in a lot of my projects.
 
+[Back to Contents](#contents)
+
+
 ### :hammer_and_wrench: Tools
 
 Tools that I use with typescript / javascript
@@ -252,6 +282,9 @@ Tools that I use with typescript / javascript
   * [ESLint](https://eslint.org/) - A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
   * [Prettier](https://prettier.io/) - An opinionated code formatter.
 
+[Back to Contents](#contents)
+
+
 ### :framed_picture: Frontend
 
 I love working on both the backend and the frontend and these are some awesome frontend libraries that I rely on.
@@ -265,6 +298,9 @@ I love working on both the backend and the frontend and these are some awesome f
   * [Playwright](https://playwright.dev/) - A great tool for testing web applications.
   * [SWR](https://swr.vercel.app/) - React Hooks library for remote data fetching.
   * [@tabler/icons](https://tabler-icons.io/) - A set of over 700 free MIT-licensed high-quality SVG icons for you to use in your web projects.
+
+[Back to Contents](#contents)
+
 
 
 ## :video_game: Game Development
@@ -287,6 +323,9 @@ so often use these libraries with bindings for those languages.
   * [FNA](https://fna-xna.github.io/) - FNA is a reimplementation of the Microsoft XNA Game Studio 4.0 Refresh libraries.
   * [Moonworks](https://github.com/MoonsideGames/MoonWorks) - Built on the above FNA library, Moonworks is a library for building games in C#.
 
+[Back to Contents](#contents)
+
+
 ### :video_game: Game Engines
 
 A step up from libraries are the full game engine. Here are some that I have experimented with, or am interested
@@ -297,6 +336,9 @@ in using in the future.
   * [Love](https://love2d.org/) - A framework for making 2D games in the Lua programming language.
   * [Monogame](https://www.monogame.net/) - An open-source, cross-platform framework for building 2D and 3D games in C#.
   * [Openbor](https://github.com/DCurrent/openbor) - An open-source engine for building 2D beat-em-up games.
+
+[Back to Contents](#contents)
+
 
 ### :hammer_and_wrench: Tools
 
@@ -311,6 +353,9 @@ Code isn&#x27;t the only thing that is needed when making a game, these are tool
   * [Blender](https://www.blender.org/) - A free and open-source 3D creation suite.
   * [Cubase](https://new.steinberg.net/cubase/) - A digital audio workstation developed by Steinberg for music and MIDI recording, arranging and editing.
 
+[Back to Contents](#contents)
+
+
 ### :link: Bindings
 
 I tend to work in Typescript or C# , but a lot of game development libraries are written in C++.
@@ -321,6 +366,9 @@ These are some of the bindings I use to work with these libraries.
   * [ImGui.NET](https://github.com/ImGuiNET/ImGui.NET) - .NET bindings for ImGui.
   * [SDL3-CS](https://github.com/flibitijibibo/SDL3-CS) - SDL3 bindings for C#.
   * [JoltPhysicsSharp](https://github.com/amerkoleci/JoltPhysicsSharp) - Jolt Physics bindings for C#.
+
+[Back to Contents](#contents)
+
 
 ### :books: Books
 
@@ -338,6 +386,9 @@ _All links are to Amazon UK and are Not Affiliate Links._
   * [The Indie Game Developer Handbook](https://amzn.eu/d/1uURQuI) - This book is a great introduction to indie game development. It covers the basics of indie game development and how to be successful in it.
   * [Arcade Game Typography: The Art of Pixel Type](https://amzn.eu/d/idcY9nA) - This book is a great introduction to pixel typography. It covers the basics of pixel typography and how to apply them to game development.
   * [The Game Music Toolbox: Composition Techniques and Production Tools from 20 Iconic Game Soundtrack](https://amzn.eu/d/aPTr2Be) - This book is a great introduction to game music composition. It covers the basics of game music composition and how to apply them to game development.
+
+[Back to Contents](#contents)
+
 
 
 ## :books: Resources
@@ -357,6 +408,9 @@ Some of the best mailing lists I have subscribed to.
   * [Ruby Weekly](https://rubyweekly.com/) - A free, once–weekly e-mail round-up of Ruby news and articles
   * [Go Newsletter](https://golangweekly.com/) - A weekly newsletter about the Go programming language
 
+[Back to Contents](#contents)
+
+
 ### :octocat: Services
 
 Services that I use day to day when making software
@@ -374,6 +428,9 @@ Services that I use day to day when making software
   * [Trello](https://trello.com) - Trello is a web-based list-making application.
   * [Fathom Analytics](https://usefathom.com) - Fathom Analytics is simple, privacy-focused website analytics.
   * [Socket](https://socket.dev/) - Socket security scanning for packages and dependencies. I only use this on OSS projects
+
+[Back to Contents](#contents)
+
 
 ### :books: Books
 
@@ -400,6 +457,9 @@ _All links are to Amazon UK and are Not Affiliate Links._
   * [Web Audio API](https://amzn.eu/d/5GYCJpn) - This book is a great introduction to the Web Audio API. It covers the basics of the API and how to use it to build audio applications.
   * [97 Things Every Programmer Should Know: Collective Wisdom from the Experts](https://amzn.eu/d/ieVZzTu) - This book is a collection of essays from experienced programmers. It covers a wide range of topics that are essential for becoming a better programmer.
 
+[Back to Contents](#contents)
+
+
 ### :speech_balloon: My Socials
 
 You can find me on these social platforms.
@@ -411,10 +471,13 @@ _Please note that I am no longer on Twitter. Please follow me on Bluesky instead
   * [Github](https://github.com/dotmh) - My code and projects on Github
   * [My Website](https://dotmh.io) - My professional website
 
+[Back to Contents](#contents)
+
+
 
 
 ## Stats
-A total of **197** resources in **21** categories and **5** groups last updated **26/02/2025, 16:50:08**
+A total of **197** resources in **21** categories and **5** groups last updated **26/02/2025, 17:11:19**
 
 ## License
 
